@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Popppins', sans-serif;
+}
+
+/**********/
+/**Header**/
+.container{
+  min-width: 1320px;
+  max-width: 1400px;
+  padding: 0;
+}
+.logo-box{
+  width: 187px;
+  height: 45px; 
+  background-color: #A4C0CF;
+}
+
+.nav-item{
+  margin: 0 5px;
+}
+
+.nav-item a{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6rem;  
+  color: black;
+  padding: 10px 10px !important;
+  cursor: pointer;
+}
+.nav-item a:hover{
+  color: #06BA63;
+}
+
+.call-us{
+  background-color: #06BA63;
+  border-radius: 4px;
+  padding: .1rem 1.2rem;
+  font-family: 'Poppins';
+	font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  margin-left: 5px;
+}
+
+.fa-phone{
+  transform: rotate(100deg);
+  font-size: .9rem;
+  margin-right: .2rem;
+} 
+
+/*****************************/
+/***Landing****/
+.landing{
+  position: relative;
+}
+.landing img{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.landing-overlay{
+  position: absolute;
+  top: 0%;
+  left: 6%;
+  height: 100%;
+  height: calc(100vh-12vh);
+  width: 35%;
+  padding: 4% 4%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(30px);
+  color: white;
+}
+
+.landing-overlay .heading{
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.landing-overlay .sub-heading{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 30px;
+  word-spacing: .2rem;
+  margin-bottom: 1.6rem;
+}
+.avail-offer{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 30px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.input-container{
+  display: inline-block;
+}
+form{
+  width: 80%;
+  margin: auto;
+}
+label{
+font-weight: 500;
+font-size: .8rem;   
+text-transform: capitalize;
+color: #FCFCFC;
+}
+.form-control{
+  background: rgba(255, 255, 255, 0.4);
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  position: relative;
+  padding: 8px;
+}
+.btn-submit{
+  margin-top: 20px;
+  width: 100%;
+  background: #06BA63;
+  border-radius: 5px;
+  outline: none;
+}
+
+.mb-3{
+  margin-bottom: 0 !important;
+}
+
+.mb-3 img{
+  width: 10px;
+  position: relative;
+  top: -31px;
+  left: 90%;
+}
+
+/*****************************/
+/*******FEATURES*****/
+.feature-container{
+  width: 85%;
+  margin: 4rem auto 6rem auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.feature-img{
+  width: 20%;
+}
+
+.feature-img img{
+  margin-bottom: .6rem;
+}
+
+.type{
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  margin-bottom: 0;
+}
+.feature-type{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/*****************************/
+/*****brochure-container****/
+.brochure-container{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+.tornado-text{
+  width: 40%;
+  margin-right: 10%;
+}
+  h1.tornado{
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  color: #1C2321;
+  margin-bottom: 0rem;
+}
+p.tornado{
+  color: #707070;
+  font-size: 1.2rem;
+}
+.tornado-bodytext{
+  font-size: 1.2rem;
+  width: 86%;
+  color: black;
+  margin-bottom: 2rem;
+}
+.btn-brochure, .btn-highlight, .btn-tour, .btn-pricePlan{
+  text-align: center;
+  padding: .8rem 1.8rem;
+  background: #06BA63;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 1rem;
+}
+.btn-brochure:hover, .btn-highlight:hover, .btn-tour:hover{
+  color: white;
+}
+
+.tornado-carousel{
+  position: absolute;
+  display: flex;
+  right: 0;
+  width: 50%;
+  justify-content: space-between;
+}
+.c-img1{
+  width: 520px; 
+  padding-right: 4%;
+}
+
+/*****************************/
+/******Highlights*****/
+.highlight-container{
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 15rem;
+}
+.highlight-carousel{
+  position: relative;
+}
+.highlightImg{
+  position: absolute;
+  left: 100px;
+  width: 600px;
+  z-index: 1;
+}
+.blue-box{
+  position: absolute;
+  background-color: #7692FF;
+  width: 550px;
+  height: 400px;
+  top: 9rem;
+}
+.highlight-text{
+  margin-top: 3rem;
+}
+h1.highlight, h1.floorplan, h1.location{
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  color: #1C2321;
+  margin-bottom: 3rem;
+}
+.bulletPoint{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-start;
+  margin-bottom: 0rem;
+}
+.bulletPoint img{
+  width: 15px;
+  height: 24px;
+  margin-right: 1.2rem;
+}
+.bullet-text{
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.btn-highlight{
+  margin-top: 2rem;
+}
+
+
+/*****************************/
+/*********BOOK TOUR*******/
+.tour-container{
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 2.3rem 7rem;
+  margin-bottom: 5.5rem;
+  display: flex; 
+  align-items: center;
+}
+.tour-text{
+  width: 75%;
+}
+h1.tour{
+  color: #003844;
+  margin-bottom: 1.2rem;
+}
+p.tour{
+  color: #003844;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.btn-tour{
+  padding: .8rem 2rem;
+  text-transform: uppercase;
+}
+
+/*****************************/
+/******Amenities******/
+.amenities-container{
+  width: 65%;
+  margin: auto;
+  margin-bottom: 5.5rem;
+}
+.amenities-rows{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+}
+.amenities-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1.amenities{
+  text-align: center;
+  margin-bottom: 5rem;
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.amenity{
+  text-align: center;
+}
+.amenity img{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1rem;
+}
+p.amenity{
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+/*****************************/
+/****Pricing and Floor Plans***/
+.floorPlan-container{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 15%;
+}
+
+h1.floorplan{
+  text-align: center;
+}
+
+.bhks{
+  padding: 0 5.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+p.bhks{
+  font-weight: 600;
+}
+p.bhks:nth-child(2), p.bhks:nth-child(3){
+  color: #707070;
+
+}
+
+.lines{
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.priceline{
+  position: absolute;
+  width: 30%;
+}
+
+.line{
+  position: absolute;
+  right: 0;
+  width: 70%;
+  background-color: rgb(58, 57, 57);
+  height: 1.5px;
+}
+
+.floorplan-body{
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  margin-left: 10%;
+}
+
+.floorPrice{
+  width: 17%;
+}
+
+p.pricePlan{
+  color: #1C2321;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin: 0;
+  font-family: 'Frank Ruhl Libre';
+}
+
+h1.pricePlan{
+  color: #06BA63;
+  font-family: 'Frank Ruhl Libre';
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+p.pricePlan:nth-child(3){
+  margin-bottom: 3rem;
+}
+
+.floorplan-body .price-text{
+  width: 26%;
+  padding-right: 1rem;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.priceImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.btn-pricePlan{
+  margin-top: 3.5rem;
+}
+
+/*****************************/
+/*******location-container****/
+.location-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 15%;
+}
+
+.locationMap{
+  width: 50%;
+  padding-left: 2%;
+}
+
+.location-text{
+  width: 45%;
+}
+
+h1.location{
+  margin-bottom: 2rem;
+}
+
+p.location{
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+h1.shapoorji{
+  margin-bottom: .8em;
+}
+
+/******SITE VISIT****/
+.sitevisitContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #1C2321;
+  margin-bottom: .2rem;
+}
+form.site-visit{
+  width: 45%;
+  background-color: #1C2321;
+  padding: 8% 10%;
+  margin: 0;
+}
+.site-visit .avail-offer{
+  color: white;
+  font-size: 1.7rem;
+}
+.site-visitIMG{
+  width: 55%;
+  height: max-content;
+}
+
+.site-visitIMG img{
+  object-fit: cover;
+  width: 100%;
+  height: 630px;
+}
+
+/*****************************/
+/************FOOTER***********/
+.footer{
+  height: 42vh;
+  background-color:#1C2321;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top-links{
+  width: 80%;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-nav{
+  flex-direction: row;
+}
+
+.footer .nav-item a{
+  color:  #FCFCFC;
+}
+.footer .nav-item a:hover{
+  color: #06BA63;
+}
+
+p.footer{
+  color: #c0bebe;
+  width: 80%;
+  margin: auto;
+  line-height: 2rem;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding-right: 4%;
+}
+
+.footer .copyrights{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+p.copyright, p.credits{
+  color:#c0bebe;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.companyName{
+  color: #06BA63;
+}
